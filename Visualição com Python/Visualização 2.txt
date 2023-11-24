@@ -1,0 +1,28 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = range(5)
+x = np.array(x)
+
+fig, ax = plt.subplots(1, 2, figsize=(12,5)) # Faz a configuração da figura e dos eixos
+
+#Trabalhando com a primeira figura (ax[0])
+
+ax[0].plot(x, x, label= "Eq_1", color = 'red') # Cria curva 1 do gráfico
+ax[0].plot(x, x**2, label= "Eq_2")
+ax[0].plot(x, x**3, label= "Eq_3", color= 'green')
+ax[0].set_xlabel("Eixo X") # Nomeia o eixo X
+ax[0].set_ylabel("Eixo Y") # Nomeia o eixo Y
+ax[0].set_title("Gráfico 1") # Nomeia o gráfico
+ax[0].legend() # Adiciona a legenda
+
+#Trabalhando com a segunda figura (ax[1])
+ax[1].plot(x, x,'--', label= "Eq_1", color = 'red') # Cria curva 1 do gráfico e deixa tracejada
+ax[1].plot(x**2, x,'--', label= "Eq_2")
+ax[1].plot(x**3, x,'--', label= "Eq_3", color= 'green')
+ax[1].set_xlabel("Eixo X") # Nomeia o eixo X
+ax[1].set_ylabel("Eixo Y") # Nomeia o eixo Y
+ax[1].set_title("Gráfico 2") # Nomeia o gráfico
+ax[1].legend() # Adiciona a legenda
+
+plt.show()
