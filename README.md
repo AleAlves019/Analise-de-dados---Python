@@ -1,5 +1,6 @@
 # Bem-vindo(a) ao meu Portfólio de Desenvolvimento em análise de dados com Python e Power BI!
 
+## Sobre mim
 Tenho 23 anos. Atualmente, estou cursando Engenharia Elétrica na Unicamp e Análise e Desenvolvimento de Sistemas pela Anhanguera, buscando uma formação multidisciplinar que abrange tanto a área de engenharia quanto a de tecnologia da informação.
 
 Durante dois anos e meio, tive a oportunidade de trabalhar com análise de dados em uma empresa de desenvolvimento de software. Nessa jornada, apliquei na prática o pipeline completo de gerenciamento de dados: desde a captação das demandas até a automação das atualizações dos dashboards. Esse período me permitiu vivenciar a importância do ciclo de dados e como suas transformações podem impactar diretamente a tomada de decisões.
